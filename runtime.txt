@@ -1,0 +1,10 @@
+# Code to generate a runtime.txt file
+
+# Specify the Python version you need (e.g., 3.10.12)
+python_version = "python-3.10.12"
+
+# Write the version to runtime.txt
+with open("runtime.txt", "w") as file:
+    file.write(python_version)
+
+print("runtime.txt file created with Python version:", python_version)
